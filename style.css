@@ -1,0 +1,69 @@
+.hero {
+    padding-top: 50px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.DocName {
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: 900;
+    /* font-size: 3em; */
+    line-height: 64px;
+    /* or 123% */
+
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+
+    color: #000000;
+}
+
+.docShortDetails {
+    font-family: Axiforma;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 100%;
+    line-height: 28px;
+    /* or 200% */
+
+
+    color: #2E2F33;
+}
+
+.docDetails {
+    padding: 50px;
+}
+
+
+.boxedText {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 12px;
+    margin-left: 15px;
+
+    position: static;
+    /* height: 26px; */
+    left: 0px;
+    top: 0px;
+
+    border: 1px solid #C4C6CC;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+
+
+.nav-link {
+    width: 118px;
+    text-align: center;
+    /* Colors/primary blue 8% */
+}
+
+.aboutDoctor {
+    padding-top: 70px;
+}
